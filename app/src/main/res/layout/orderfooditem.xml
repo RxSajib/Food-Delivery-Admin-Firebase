@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/ImageView"
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:scaleType="centerCrop"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:riv_corner_radius="@dimen/_5sdp" />
+
+
+            <TextView
+                android:id="@+id/FoodTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:singleLine="true"
+                android:textColor="@color/carbon_black_87"
+                android:text="Mulberry Pizza by Josh"
+                android:fontFamily="@font/metropolismedium"
+                android:textSize="@dimen/_14ssp"
+                app:layout_constraintBottom_toTopOf="@+id/FoodMadeBy"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/ImageView"
+                app:layout_constraintTop_toTopOf="@+id/ImageView" />
+
+            <TextView
+                android:id="@+id/FoodMadeBy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/metropolisregular"
+                android:text="Cafe"
+                android:textSize="@dimen/_10ssp"
+                app:layout_constraintBottom_toTopOf="@+id/FoodRating"
+                app:layout_constraintStart_toStartOf="@+id/FoodTitle"
+                app:layout_constraintTop_toBottomOf="@+id/FoodTitle" />
+
+            <TextView
+                android:id="@+id/FoodLocation"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:fontFamily="@font/metropolisregular"
+                android:textSize="@dimen/_10ssp"
+                app:layout_constraintBottom_toBottomOf="@id/FoodMadeBy"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/FoodMadeBy"
+                app:layout_constraintTop_toTopOf="@id/FoodMadeBy" />
+
+            <TextView
+                android:id="@+id/FoodRating"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quantity"
+                app:layout_constraintStart_toStartOf="@id/FoodMadeBy"
+                app:layout_constraintTop_toBottomOf="@id/FoodMadeBy" />
+
+            <TextView
+                android:id="@+id/RatingNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_4sdp"
+                android:textColor="@color/loginbutton_color"
+                android:textSize="@dimen/_10ssp"
+                app:layout_constraintBottom_toBottomOf="@id/FoodRating"
+                app:layout_constraintStart_toEndOf="@id/FoodRating"
+                app:layout_constraintTop_toTopOf="@id/FoodRating" />
+
+            <TextView
+                android:id="@+id/Price"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="250"
+                android:textColor="@color/black"
+                android:fontFamily="@font/rtihadaltismediumregular"
+                android:textSize="@dimen/_10ssp"
+                app:layout_constraintBottom_toBottomOf="@+id/ImageView"
+                app:layout_constraintEnd_toStartOf="@+id/PendingBtn"
+                app:layout_constraintStart_toStartOf="@+id/FoodRating" />
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/PendingBtn"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintWidth_percent=".25"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintDimensionRatio="1:0.3"
+                android:layout_width="0dp"
+                android:background="@drawable/pendingbg"
+                android:layout_height="0dp">
+
+                <TextView
+                    android:id="@+id/Status"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:textColor="@color/white"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:text="Pending"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

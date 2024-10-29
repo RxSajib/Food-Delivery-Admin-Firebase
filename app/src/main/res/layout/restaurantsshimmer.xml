@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        app:layout_constraintEnd_toStartOf="@id/Two"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        android:id="@+id/One"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="0dp"
+        android:layout_margin="@dimen/_7sdp"
+        android:padding="@dimen/_7sdp"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ImageView"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/addrestrount_imagebg"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"/>
+
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_marginTop="@dimen/_15sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ImageView"
+            android:layout_width="wrap_content"
+            android:text="Title of Restrounts"
+            android:textColor="@color/carbon_black_87"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/Details"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="@string/appbar_scrolling_view_behavior"
+            app:layout_constraintTop_toBottomOf="@id/Title"
+            android:layout_width="0dp"
+            android:maxLines="5"
+            android:gravity="center"
+            android:layout_marginStart="@dimen/_2sdp"
+            android:layout_marginEnd="@dimen/_2sdp"
+            android:layout_height="wrap_content"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_margin="@dimen/_7sdp"
+        android:padding="@dimen/_7sdp"
+        android:visibility="gone"
+        android:id="@+id/Two"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/One"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ImageView"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/addrestrount_imagebg"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"/>
+
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_marginTop="@dimen/_15sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ImageView"
+            android:layout_width="wrap_content"
+            android:text="Title of Restrounts"
+            android:textColor="@color/carbon_black_87"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/Details"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="@string/appbar_scrolling_view_behavior"
+            app:layout_constraintTop_toBottomOf="@id/Title"
+            android:layout_width="0dp"
+            android:maxLines="5"
+            android:gravity="center"
+            android:layout_marginStart="@dimen/_2sdp"
+            android:layout_marginEnd="@dimen/_2sdp"
+            android:layout_height="wrap_content"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

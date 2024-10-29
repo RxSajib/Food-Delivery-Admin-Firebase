@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:padding="@dimen/_5sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent=".95"
+            android:layout_margin="@dimen/_2sdp"
+            android:background="@color/white"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/OrderID"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:text="ID: 3546546354"
+                android:textColor="@color/black"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/FirstNameText"
+                app:layout_constraintTop_toBottomOf="@+id/OrderID"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="@dimen/_5sdp"
+                app:layout_constraintWidth_percent=".48"
+                android:text="First name"
+                android:singleLine="true"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/FirstName"
+                app:layout_constraintTop_toBottomOf="@+id/FirstNameText"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintWidth_percent=".48"
+                android:text="First name"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:id="@+id/NumberText"
+                app:layout_constraintTop_toBottomOf="@+id/FirstName"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="@dimen/_5sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:text="Number"
+                android:singleLine="true"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/Number"
+                app:layout_constraintTop_toBottomOf="@+id/NumberText"
+                app:layout_constraintStart_toStartOf="parent"
+                android:text="01771330378"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/LocationText"
+                app:layout_constraintTop_toBottomOf="@+id/Number"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="@dimen/_5sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:text="Location"
+                android:singleLine="true"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/Location"
+                app:layout_constraintTop_toBottomOf="@+id/LocationText"
+                app:layout_constraintStart_toStartOf="parent"
+                android:text="Dhaka BD"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/LastName"
+                app:layout_constraintTop_toBottomOf="@+id/LastNameText"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintWidth_percent=".48"
+                android:text="First name"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/LastNameText"
+                app:layout_constraintTop_toBottomOf="@+id/OrderID"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="@dimen/_5sdp"
+                app:layout_constraintWidth_percent=".48"
+                android:text="Last name"
+                android:singleLine="true"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/SAJIB ROY/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/drawable/addrestaurants_bg.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/SAJIB ROY/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/drawable/card_leftside_bg.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/SAJIB ROY/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/drawable/circle_card.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/SAJIB ROY/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/drawable/edittext_bg.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/SAJIB ROY/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/drawable/facebook_button_bg.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/SAJIB ROY/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/drawable/google_button_bg.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/SAJIB ROY/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/drawable/loginbutton_bg.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/SAJIB ROY/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/drawable/navclick_ripple.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/SAJIB ROY/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/drawable/right_sidecard_bg.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/SAJIB ROY/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/layout/addrestrounts.xml" value="0.16" />
+        <entry key="..\:/Users/SAJIB ROY/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/layout/home.xml" value="0.22" />
+        <entry key="..\:/Users/SAJIB ROY/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/layout/managefoodmenu.xml" value="0.25" />
+        <entry key="..\:/Users/SAJIB ROY/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/layout/navagation_single_view.xml" value="0.5" />
+        <entry key="..\:/Users/SAJIB ROY/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/layout/signin.xml" value="0.25" />
+        <entry key="..\:/Users/SAJIB ROY/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/layout/splashscreen.xml" value="0.25" />
+        <entry key="..\:/Users/Sajib Roy/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/drawable/addfoodbg.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/Sajib Roy/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/drawable/addimage_bg.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/Sajib Roy/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/drawable/addrestroundimage_addbuttonbg.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/Sajib Roy/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/drawable/addrestrount_edittextbg.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/Sajib Roy/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/drawable/addrestrount_imagebf.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/Sajib Roy/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/drawable/addrestrount_imagebg.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/Sajib Roy/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/drawable/addrestrunt_button.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/Sajib Roy/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/drawable/background_dialoag.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/Sajib Roy/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/drawable/dialoagbg.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/Sajib Roy/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/drawable/restrounts_bg.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/Sajib Roy/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/drawable/rippleeffect.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/Sajib Roy/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/layout/add_restruntlayout.xml" value="0.2" />
+        <entry key="..\:/Users/Sajib Roy/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/layout/addfood.xml" value="0.33" />
+        <entry key="..\:/Users/Sajib Roy/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/layout/addrestrounts.xml" value="0.18" />
+        <entry key="..\:/Users/Sajib Roy/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/layout/addrestruntlayout.xml" value="0.5" />
+        <entry key="..\:/Users/Sajib Roy/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/layout/countryitemlayout.xml" value="0.25" />
+        <entry key="..\:/Users/Sajib Roy/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/layout/countrylayout.xml" value="0.2" />
+        <entry key="..\:/Users/Sajib Roy/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/layout/foodtypeitemlayout.xml" value="0.33" />
+        <entry key="..\:/Users/Sajib Roy/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/layout/foodtypelayout.xml" value="0.5" />
+        <entry key="..\:/Users/Sajib Roy/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/layout/foodtyplayout.xml" value="0.25" />
+        <entry key="..\:/Users/Sajib Roy/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/layout/home.xml" value="0.25" />
+        <entry key="..\:/Users/Sajib Roy/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/layout/managefoodmenu.xml" value="0.2" />
+        <entry key="..\:/Users/Sajib Roy/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/layout/navagation_single_view.xml" value="0.2" />
+        <entry key="..\:/Users/Sajib Roy/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/layout/restaurantsshimmer.xml" value="0.25" />
+        <entry key="..\:/Users/Sajib Roy/AndroidStudioProjects/MealMonkeyFoodDeleveryJava_Admin/app/src/main/res/layout/restrounts_iteam.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
